@@ -24,7 +24,7 @@ RUN mkdir -p $APACHE_RUN_DIR
 RUN mkdir -p $APACHE_LOCK_DIR
 RUN mkdir -p $APACHE_LOG_DIR
 
-EXPOSE 8089
+EXPOSE 80
 
 # CMD ["sed", "-n", "74p", "/etc/apache2/apache2.conf"]
 # CMD ["cat", "/etc/apache2/envvars"]
